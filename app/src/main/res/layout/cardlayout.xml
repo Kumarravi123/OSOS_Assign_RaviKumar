@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="fill"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    app:cardCornerRadius="25dp"
+    android:elevation="20dp"
+
+    android:minHeight="108dp"
+
+
+
+    >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="25sp"
+            android:id="@+id/linear1"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_1"
+                android:text="name:"
+                android:textSize="15sp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/username_1"
+                android:text="username:"
+                android:textSize="15sp">
+
+            </TextView>
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+
+                android:text="email"
+                android:textSize="15sp">
+
+            </TextView>
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="250dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"
+                android:text="Address"
+                android:textSize="15sp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/street_1"
+                android:layout_below="@id/address"
+                android:text="street"
+                android:textSize="15sp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="city"
+                android:layout_below="@id/street_1"
+                android:textSize="15sp"
+                android:id="@+id/city_1"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zipcode"
+                android:layout_below="@id/city_1"
+                android:textSize="15sp"
+                android:id="@+id/zipcode_1"
+               >
+
+            </TextView>
+    </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+

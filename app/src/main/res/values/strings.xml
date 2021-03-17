@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OSOS_Assign_RaviKumar</string>
+    <string name="google_maps_key" translatable="false">
+        AIzaSyDDHY2JD1FLh0a9R08Gl4g-c0xfDlMEGHo</string>
+</resources>
